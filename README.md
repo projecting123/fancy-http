@@ -2,7 +2,10 @@
 
 "fancy-http" is a handy tool that'll help you to make different http requests with so less code. It is also made for
 more manageable for the developers. Currently it supports 4 http methods: GET, POST, PUT & DELETE
-
+### Install from npm
+```js
+npm i fancy-http
+```
 ## Supported Methods
 
 ```js
