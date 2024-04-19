@@ -1,2 +1,2 @@
-import fancyRequest from './http/http.js'
-export default fancyRequest;
+import fr from './http/http.js'
+export default fr ;
