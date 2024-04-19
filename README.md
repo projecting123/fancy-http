@@ -9,19 +9,19 @@ npm i fancy-http
 ## Supported Methods
 
 ```js
-import fancyRequest from "fancy-http";
-fancyRequest.get(url, headers); // headers is optional
-fancyRequest.post(url, body, headers); // headers is optional
-fancyRequest.put(url, body, headers); // headers is optional
-fancyRequest.delete(url, headers); // headers is optional
+import fr from "fancy-http";
+fr.get(url, headers); // headers is optional
+fr.post(url, body, headers); // headers is optional
+fr.put(url, body, headers); // headers is optional
+fr.delete(url, headers); // headers is optional
 ```
 
 ## Code example
 
 ```js
-import fancyRequest from "fancy-http";
+import fr from "fancy-http";
 const headers = { "Content-Type": "application/json"};
-const response = await fancyRequest.get("http://www.example.com", headers);
+const response = await fr.get("http://www.example.com", headers);
 console.log(response); // For successfull request you will see a FancyResponse object with three properties: data, status and statusText otherwise you'll recieve a FancyError object.
 ```
 Thank You.. Hope you'll love it.

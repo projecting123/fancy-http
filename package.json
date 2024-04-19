@@ -1,6 +1,6 @@
 {
   "name": "fancy-http",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "fancy-http is a powerful package for making HTTP requests with less code and more manageable for developers",
   "repository": {"url": "https://github.com/projecting123/fancy-http"},
   "main": "./lib/index.js",
